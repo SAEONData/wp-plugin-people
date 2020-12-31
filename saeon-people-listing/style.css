@@ -1,0 +1,581 @@
+/* Global */
+.carousel-slider__caption,
+.sn-image{
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+body, #mainnav ul ul a {
+    font-family: 'Open Sans', sans-serif;
+}
+.elementor-button,
+.elementor-element.elementor-button-warning .elementor-button:hover {
+    background-color: #051d40;
+}
+.elementor-button:hover,
+.elementor-element.elementor-button-warning .elementor-button {
+    background-color: #f58220;
+}
+h1{
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.txt-light,.txt-light h1, .txt-lighth2{
+	color:#fff;
+}
+.site-logo, .header-wrap .col-md-4 {
+    margin-bottom: 0;
+}
+/* Header */
+.site-header,.site-header.float-header,
+.page-template-page_no_banner .site-header{
+    background: #051d40;
+    text-transform: uppercase;
+}
+/* News */
+.sn-image{
+	display: block;
+	height: 250px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-image:url('https://sarva.saeon.ac.za/wp-content/uploads/2020/03/sarva_logo.png');
+	background-color:#f0f0f0;
+}
+.sn-image:hover{
+    background-size: 105%;
+}
+.sn-wrapper{
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.sarva-news h4{
+    margin: 0px 0 21px 0;
+    font-size: 35px;
+    font-weight: 300;
+}
+.sn-date{
+    color: #f5821f;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.sarva-news .btn{
+    color: #fff;
+    padding: 9px 28px;
+    background-color: #051d40;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.sarva-news .btn:hover{
+    background: #f5821f;
+}
+/* STG Navigation */
+.stg-header{
+	margin-top: 138px;
+}
+.stg-header-title{
+    float: left;
+    width: 350px;
+	position: relative;
+	height: 102px;
+}
+.stg-header-title span{
+    display: block;
+    letter-spacing: 0;
+}
+.stg-header h1,.stg-header h2{
+	color: #041d3f;
+	font-family: 'Lato', sans-serif;
+	margin:0;
+}
+.stg-header h1{
+	font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    width: 145px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.stg-header p{
+	color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    background: #041d3f;
+    position: absolute;
+    bottom: 5px;
+    padding: 0 20px;
+    letter-spacing: 2px;
+}
+.stg-header h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    left: 141px;
+    top: -3px;
+}
+.stg-header img{
+	float: left;
+    margin-right: 20px;
+}
+
+.stg-nav{
+    padding: 25px 49px 10px 49px;
+}
+.stg-nav .carousel-slider .carousel-slider__caption {
+    position: absolute;
+    z-index: 2222;
+    top: 0;
+    background: #183668;
+    color: #fff;
+    bottom: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+.stg-nav .carousel-slider .carousel-slider__caption:hover {
+	opacity: 1;
+}
+.carousel-slider .carousel-slider__caption .caption {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+.stg-nav .stg-title small,.stg-title h3,.stg-title h4 {
+	color: #fff;
+}
+.stg-nav .owl-stage .owl-item:nth-child(1) .carousel-slider__caption {
+	background: #eb1c2d;
+}
+.stg-nav .owl-stage .owl-item:nth-child(2) .carousel-slider__caption {
+	background: #d3a029;
+}
+.stg-nav .owl-stage .owl-item:nth-child(3) .carousel-slider__caption {
+	background: #279b48;
+}
+.stg-nav .owl-stage .owl-item:nth-child(4) .carousel-slider__caption {
+	background: #c31f33;
+}
+.stg-nav .owl-stage .owl-item:nth-child(5) .carousel-slider__caption {
+	background: #ef402b;
+}
+.stg-nav .owl-stage .owl-item:nth-child(6) .carousel-slider__caption {
+	background: #00aed9;
+}
+.stg-nav .owl-stage .owl-item:nth-child(7) .carousel-slider__caption {
+	background: #fdb713;
+}
+.stg-nav .owl-stage .owl-item:nth-child(8) .carousel-slider__caption {
+	background: #8f1838;
+}
+.stg-nav .owl-stage .owl-item:nth-child(9) .carousel-slider__caption {
+	background: #f36d25;
+}
+.stg-nav .owl-stage .owl-item:nth-child(10) .carousel-slider__caption {
+	background: #e11484;
+}
+.stg-nav .owl-stage .owl-item:nth-child(11) .carousel-slider__caption {
+	background: #f99d26;
+}
+.stg-nav .owl-stage .owl-item:nth-child(12) .carousel-slider__caption {
+	background: #cf8d2a;
+}
+.stg-nav .owl-stage .owl-item:nth-child(13) .carousel-slider__caption {
+	background: #48773e;
+}
+.stg-nav .owl-stage .owl-item:nth-child(14) .carousel-slider__caption {
+	background: #007dbc;
+}
+.stg-nav .owl-stage .owl-item:nth-child(15) .carousel-slider__caption {
+	background: #3eb049;
+}
+.stg-nav .owl-stage .owl-item:nth-child(16) .carousel-slider__caption {
+	background: #02558b;
+}
+.stg-title small{
+    text-transform: uppercase;
+	font-size: 100%;
+	color:#fff;
+}
+.stg-title h3{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.stg-title h4 {
+    font-size: 18px;
+}
+
+/* Home Page */
+.search-blue#sasdisearch {
+    width: 309px;
+    margin: 0 auto;
+}
+.search-blue#sasdisearch input {
+    height: 43px;
+    /* color: #051D40; */
+    border: none;
+    background: #051D40;
+	color: #fff;
+	padding-left: 60px;
+    border-radius: 5px;
+}
+.search-blue#sasdisearch button {
+    background: #051D40;
+    color: #fff;
+    padding: 12px 23px;
+	height: 43px;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	margin-left: -5px;
+	right: initial;
+    left: 0;
+}
+
+.search-blue input[type="text"]:focus,
+#sasdisearch button:focus {
+	border: none;
+	outline-offset: 0;
+	outline: none;
+}
+.search-blue ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #fff;
+	opacity: 1; /* Firefox */
+  }
+.home .site-logo{
+	display:none;
+}
+.home .page-wrap {
+    padding-top: 0px;
+}
+#homebanner{
+	background: url(https://sarva.saeon.ac.za/wp-content/uploads/2020/03/screen_2x.jpg) center center / cover no-repeat;
+}
+#homebanner::before{
+	display:block;
+	content:"";
+	background: rgba(0,0,0,0.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hometitle{
+    color: #fff;
+}
+.homelogo img{
+	max-height: 200px;
+	width: auto;
+	margin-top: 40px;
+}
+.hometitle h1{
+    color: #fff;
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+.hometitle p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+@media only screen and (min-width: 769px) {
+	#homebanner{
+		min-height: 530px;
+		margin-top: -119px;
+	}
+	.home .site-header.fixed {
+		top: 450px;
+	}
+	.home #mainnav {
+		margin-top: 0;
+	}
+	.site-header.float-header #mainnav,
+	.page-template-page_no_banner.float-header #mainnav {
+		padding: 25px 20px 20px 20px;
+	}
+	.home .site-header.fixed.float-header {
+		top: 0;
+	}
+	.site-header.fixed.float-header,
+	.page-template-page_no_banner.float-header {
+		top: 0;
+		background: #051d40;
+		height: 79px;
+	}
+	.datapsearch .search-blue#sasdisearch button,
+	.datapsearch .search-blue#sasdisearch input {
+		background: #333;
+	}
+
+	.datapsearch.search-blue#sasdisearch {
+		top: 20px;
+		left: 15px;
+	}
+	.datapsearch .eael-filter-gallery-control>ul li {
+		padding: 10px 15px;
+	}
+	.home .menu-menu-1-container {
+		float: right;
+		margin-right: 220px;
+	}
+	#mainnav li#menu-item-1318{
+		display:none;
+	}
+}
+
+
+.page-template-page_no_banner .sydney-hero-area {
+    display: none;
+}
+.page-template-page_no_banner .page-wrap .content-wrapper{
+	padding-bottom:0;
+}
+.page-template-page_no_banner .content-area .hentry {
+    padding-bottom: 0;
+}
+.page-template-page_no_banner .entry-footer {
+    margin-top: 0px;
+}
+footer .post-edit-link{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+	.home #homebanner {
+		top: -119px;
+	}
+	.elementor-element-62086459{
+		margin-top: -83px;
+	}
+	.hometitle h1 {
+		font-size: 21px;
+	}
+	.hometitle h1,.hometitle p{
+		text-align: left;
+		padding-left: 90px;
+	}
+	.hometitle p {
+		font-size: 12px;
+	}
+	.mm-item {
+		display: none;
+  }
+  .page-template-page_no_banner .page-wrap .content-wrapper {
+    padding-top: 0px;
+}
+	
+}
+/*Menu */
+@media only screen and (min-width: 769px) {
+  body.page-template-page_no_banner .page-wrap {
+		padding-top: 70px;
+	}
+	#mobile-view{
+		display:none;
+	}
+	#mainnav ul li ul,#mainnav ul ul a {
+		width: 250px;
+	}
+	#mainnav {
+		background: rgba(5, 29, 64, 0.9);
+		padding: 25px 20px 20px 20px;
+		margin-top: 219px;
+		top: 219px;
+    position: absolute;
+    width: 100%;
+	}
+	.site-header.fixed #mainnav{
+top:0;
+	}
+	.float-header #mainnav,
+	.page-template-page_no_banner #mainnav
+	 {
+		margin-top: 0;
+	}
+	.site-header {
+		background: transparent;
+	}
+	.site-logo {
+		position: absolute;
+		margin-left: -160px;
+		top: 56px;
+		z-index: 1;
+	}
+	.float-header .site-logo,
+	.page-template-page_no_banner .site-logo{
+		margin-left: 0;
+		top: -12px;
+		height: 60px;
+		left: 15px;
+	}
+	.float-header .mm-section {
+		top: 79px;
+	}
+	.float-header .mm-item:after {
+		bottom: -32px;
+	}
+	.float-header .site-logo{
+		top: 4px;
+    	height: 60px;
+	}
+	#mainnav ul li a {
+		padding: 0 5px;
+	}
+	#mainnav ul li a:hover {
+		color: #fff;
+		background: #f58220;
+		border-radius: 3px;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.site-header {
+		padding: 1px 0 20px 0;
+	}
+	.page-wrap {
+		padding-top: 0px;
+	}
+	.site-logo {
+		max-height: 120px;
+		position: absolute;
+		top: 74px;
+		left: 50%;
+		z-index: 5;
+		margin-left: -60px;
+	}
+	body.page-template-page_no_banner .site-logo {
+		height: 49px;
+		position: absolute;
+		top: 4px;
+		left: 15px;
+		margin: 0;
+  }
+
+	.btn-menu {
+		margin: 9px 15px 0 0;
+		float: right;
+	}
+	#mainnav-mobi {
+		margin-top: 56px;
+	}
+	.menu-menu-1-container {
+		float: none;
+		width: 100%;
+	}
+	body .mm-item{
+		display:none;
+	}
+}
+.footer-widgets {
+    padding: 15px 0;
+}
+#mainnav li .sub-menu a {
+  font-size: 12px;
+} 
+/* Form  search sasdi */
+#sasdisearch{
+	position: relative;
+	z-index: 2;
+}
+#sasdisearch input{
+    position: absolute;
+    right: 53px;
+    left: 0;
+	width: 100%;
+	height:53px;
+	color: #051D40;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+#sasdisearch button{
+    background: #f5821f;
+    color: #fff;
+    font-size: 18px;
+    height: 53px;
+    position: absolute;
+    right: -3px;
+    top: 0;
+    border: none;
+    border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+#datathemesclcik{
+	position: relative;
+	margin-bottom: -39px;
+}
+#datathemesclcik .elementor-button-icon{
+    position: absolute;
+    bottom: 0;
+}
+/* Themes */
+#datathemes .eael-gallery-grid-item{
+	box-shadow: 0px 0px 10px 0px #000000;
+	background-color: #3D506B;
+	color:#fff;
+}
+#datathemes .gallery-item-caption-wrap.caption-style-card {
+    background-color: transparent;
+    color: #fff;
+}
+#datathemes .fg-item-title {
+	color: #f5821f;
+	height: 36px;
+}
+#datathemes p {
+    color: #fff;
+}
+@media only screen and (min-width: 769px) {
+	body.page-template-page_no_banner .site-logo {
+		height: 86px;
+	}
+	/* .page-template-page_no_banner .site-header.fixed #mainnav {
+		position: fixed;
+	} */
+	.page-template-page_no_banner .site-header {
+		height: 100px;
+	}
+	/* .page-template-page_no_banner .site-header.fixed #mainnav {
+		top: -15px;
+	} */
+	.page-template-page_no_banner .mm-item:after {
+		bottom: -32px;
+	}
+	.page-template-page_no_banner .mm-section {
+		top: 80px;
+	}
+	.page-template-page_no_banner .float-header .site-logo {
+		height: 60px;
+	}
+	.page-template-page_no_banner  .float-header .mm-section {
+		top: 74px;
+	}
+}
+/* Tabs */
+@media only screen and (max-width: 768px) {
+	.elementor-929 .elementor-element.elementor-element-7047b87 .elementor-tab-title {
+		position: absolute;
+		top: -44px;
+		
+	}
+	.elementor-element-7047b87  .elementor-tab-title[data-tab="2"]{
+		left:20px;
+	}
+	.elementor-element-7047b87  .elementor-tab-title[data-tab="3"]{
+		left:40px;
+	}
+	.elementor-element-7047b87  .elementor-tab-title[data-tab="4"]{
+		left:60px;
+	}
+}
